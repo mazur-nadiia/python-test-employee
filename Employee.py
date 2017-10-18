@@ -24,9 +24,9 @@ class Employee(object):
     def print_employee(self):
         vacation = self.calculate_vacation()
         if (vacation != None):
-            print("Name: %s %s, Duration: %s years, Vacation Accrued: %s days" % (self.name, self.type._value_, self.longevity, vacation) )
+            print("Name: %s %s, Duration: %s years, Vacation Accrued: %s days" % (self.name, self.type, self.longevity, vacation) )
         else:
-            print("Name: %s %s, Duration: %s years, Vacation Accrued: None" % (self.name, self.type._value_, self.longevity))
+            print("Name: %s %s, Duration: %s years, Vacation Accrued: None" % (self.name, self.type, self.longevity))
 
 
 class FulltimeEmployee(Employee):
