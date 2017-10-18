@@ -3,6 +3,7 @@ import EmployeeType
 from Employee import Employee
 from EmployeeType import EmployeeType
 
+
 class TestEmployee(unittest.TestCase):
 
     def test_fulltime_positive(self):

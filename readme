@@ -45,3 +45,9 @@ for calculate_vacation method.
 To execute these unit tests, press "Run unittests in test.py" from IDE toolbar (Run section) or from context menu
 in test.py file.
 
+or execute the next command from command line:
+.\path\to\python \path\to\test.py
+
+For example:
+
+.\python C:\Users\nadia\PycharmProjects\test_employee\test.py
