@@ -1,6 +1,5 @@
 import EmployeeType
 
-
 class Employee(object):
     def factory(self, name, type, longevity):
         self.name = name
@@ -19,12 +18,16 @@ class Employee(object):
 
     def print_employee(self):
         vacation = self.calculate_vacation(self.longevity)
-        print("Name: %s %s, Duration: %s years, Vacation Accrued: %s days" % (self.name, self.type._value_, self.longevity, vacation) )
-
+        if (vacation != None):
+            print("Name: %s %s, Duration: %s years, Vacation Accrued: %s days" % (self.name, self.type._value_, self.longevity, vacation) )
+        else:
+            print("Name: %s %s, Duration: %s years, Vacation Accrued: None" % (self.name, self.type._value_, self.longevity))
 class Fulltime(Employee):
     def calculate_vacation(self, longevity):
-        return int(longevity) * 5
-
+        if (longevity >=0):
+            return int(longevity) * 5
+        else:
+            return None
 
 class Tempopary(Employee):
     def calculate_vacation(self, longevity):
@@ -35,8 +38,4 @@ class Contractor(Employee):
         return None
 
 
-obj = Employee.factory(Employee, "Fred Johnson", EmployeeType.EmployeeType.FULLTIME, 1.5)
-obj.print_employee()
 
-obj2 = Employee.factory(Employee, "Jane James", EmployeeType.EmployeeType.CONTRACTOR, 0.8)
-obj.print_employee()
