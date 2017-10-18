@@ -1,0 +1,47 @@
+============
+Requirements:
+============
+
+Python OOP exercise:
+Using Python, design and implement an object oriented approach capable of representing different types of
+employees in a company.
+
+Types:
+The employer for this project has 3 types of employees:   Fulltime, Contractors, and Temporary.
+
+Longevity:
+All employees have a period of time they have been employed by the company.
+
+Vacation:
+Full-time employees accrue vacation at a rate of 5 days per full year of service.
+Contractors and temporary staff do not accrue vacation days.
+
+Exercise:   Write a program to output to screen information about a list of employees.
+For each employee,  print the name of the employee with a suffix indicating whether the employee is a
+Full-time employee [FT], contractor [C], or temporary [T], Duration of service, and vacation accrued.
+
+Example:
+Employee Name:  Fred Johnson
+Employee Type:  Fulltime
+Longevity:  1.5 years
+
+Expected output:
+Name:  Fred Johnson [FT],  Duration:  1.5 years,  Vacation Accrued:  5 days
+
+Another example, using a contractor:   Jane James, Contractor, 0.8 years of service
+Expected output:
+Name:  Jane James [C],  Duration:  0.8 years,  Vacation Accrued:  None
+
+
+Create a data set of your choosing which demonstrates your object code being exercised.
+
+
+==========
+How to execute code
+==========
+
+test.py file contains a set of unittests to test Employee creation with different parameters and assertion
+for calculate_vacation method.
+To execute these unit tests, press "Run unittests in test.py" from IDE toolbar (Run section) or from context menu
+in test.py file.
+
