@@ -14,8 +14,8 @@
       <file leaf-file-name="Employee.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../test_employee/Employee.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="19" column="35" lean-forward="false" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
+            <state relative-caret-position="323">
+              <caret line="19" column="43" lean-forward="false" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
               <folding />
             </state>
           </provider>
@@ -24,21 +24,11 @@
       <file leaf-file-name="test.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../test_employee/test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+            <state relative-caret-position="153">
+              <caret line="9" column="33" lean-forward="true" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="case.py" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/unittest/case.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="158">
-              <caret line="821" column="0" lean-forward="false" selection-start-line="821" selection-start-column="0" selection-end-line="821" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -73,10 +63,10 @@
         <option value="$PROJECT_DIR$/../test_employee/FullTimeEmployee.py" />
         <option value="$PROJECT_DIR$/../test_employee/TemporaryEmployee.py" />
         <option value="$PROJECT_DIR$/../test_employee/sample.py" />
-        <option value="$PROJECT_DIR$/../test_employee/Employee.py" />
         <option value="$PROJECT_DIR$/../test_employee/EmployeeType.py" />
-        <option value="$PROJECT_DIR$/../test_employee/test.py" />
         <option value="$PROJECT_DIR$/../test_employee/FactoryExample.py" />
+        <option value="$PROJECT_DIR$/../test_employee/test.py" />
+        <option value="$PROJECT_DIR$/../test_employee/Employee.py" />
       </list>
     </option>
   </component>
@@ -129,23 +119,6 @@
     </option>
   </component>
   <component name="RunManager" selected="Python tests.Unittests for test.TestEmployee">
-    <configuration name="Employee" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../test_employee" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="test_employee" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../test_employee/Employee.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
     <configuration name="FactoryExample" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -175,6 +148,20 @@
       <module name="test_employee" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;test.TestEmployee&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+    </configuration>
+    <configuration name="Unittests for test.TestEmployee.test_fulltime_positive" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../test_employee" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="test_employee" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test.TestEmployee.test_fulltime_positive&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
     <configuration name="Unittests in test.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
@@ -300,18 +287,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.sample" />
-      <item index="1" class="java.lang.String" itemvalue="Python.Employee" />
-      <item index="2" class="java.lang.String" itemvalue="Python.FactoryExample" />
-      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in test.py" />
-      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests for test.TestEmployee" />
+      <item index="1" class="java.lang.String" itemvalue="Python.FactoryExample" />
+      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in test.py" />
+      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests for test.TestEmployee" />
+      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests for test.TestEmployee.test_fulltime_positive" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests for test.TestEmployee" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in test.py" />
-        <item index="2" class="java.lang.String" itemvalue="Python.FactoryExample" />
-        <item index="3" class="java.lang.String" itemvalue="Python.sample" />
-        <item index="4" class="java.lang.String" itemvalue="Python.Employee" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests for test.TestEmployee.test_fulltime_positive" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in test.py" />
+        <item index="3" class="java.lang.String" itemvalue="Python.FactoryExample" />
+        <item index="4" class="java.lang.String" itemvalue="Python.sample" />
       </list>
     </recent_temporary>
   </component>
@@ -329,18 +316,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_test_TestEmployee - 2017.10.18 at 14h 29m 08s.xml">
-      <configuration name="Unittests for test.TestEmployee" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_TestEmployee - 2017.10.18 at 14h 29m 27s.xml">
-      <configuration name="Unittests for test.TestEmployee" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_TestEmployee - 2017.10.18 at 14h 30m 10s.xml">
-      <configuration name="Unittests for test.TestEmployee" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_TestEmployee - 2017.10.18 at 14h 31m 28s.xml">
-      <configuration name="Unittests for test.TestEmployee" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_for_test_TestEmployee - 2017.10.18 at 14h 32m 00s.xml">
       <configuration name="Unittests for test.TestEmployee" configurationId="tests" />
     </history-entry>
@@ -356,21 +331,32 @@
     <history-entry file="Unittests_for_test_TestEmployee - 2017.10.18 at 14h 37m 54s.xml">
       <configuration name="Unittests for test.TestEmployee" configurationId="tests" />
     </history-entry>
+    <history-entry file="Unittests_for_test_TestEmployee - 2017.10.18 at 14h 43m 23s.xml">
+      <configuration name="Unittests for test.TestEmployee" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_TestEmployee - 2017.10.18 at 14h 43m 42s.xml">
+      <configuration name="Unittests for test.TestEmployee" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_TestEmployee - 2017.10.18 at 14h 44m 39s.xml">
+      <configuration name="Unittests for test.TestEmployee" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_TestEmployee_test_fulltime_positive - 2017.10.18 at 14h 42m 38s.xml">
+      <configuration name="Unittests for test.TestEmployee.test_fulltime_positive" configurationId="tests" />
+    </history-entry>
     <history-entry file="Unittests_in_test_py - 2017.10.18 at 14h 34m 45s.xml">
       <configuration name="Unittests in test.py" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18020834" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18020834" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.46723044" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39852008" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -460,16 +446,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../test_employee/Employee.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="19" column="35" lean-forward="false" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
+        <state relative-caret-position="323">
+          <caret line="19" column="43" lean-forward="false" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../test_employee/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        <state relative-caret-position="153">
+          <caret line="9" column="33" lean-forward="true" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>

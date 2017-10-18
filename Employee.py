@@ -17,24 +17,24 @@ class Employee(object):
     factory = staticmethod(factory)
 
     def print_employee(self):
-        vacation = self.calculate_vacation(self.longevity)
+        vacation = self.calculate_vacation()
         if (vacation != None):
             print("Name: %s %s, Duration: %s years, Vacation Accrued: %s days" % (self.name, self.type._value_, self.longevity, vacation) )
         else:
             print("Name: %s %s, Duration: %s years, Vacation Accrued: None" % (self.name, self.type._value_, self.longevity))
 class Fulltime(Employee):
-    def calculate_vacation(self, longevity):
-        if (longevity >=0):
-            return int(longevity) * 5
+    def calculate_vacation(self):
+        if (self.longevity >=0):
+            return int(self.longevity) * 5
         else:
             return None
 
 class Tempopary(Employee):
-    def calculate_vacation(self, longevity):
+    def calculate_vacation(self):
         return None
 
 class Contractor(Employee):
-    def calculate_vacation(self, longevity):
+    def calculate_vacation(self):
         return None
 
 
