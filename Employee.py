@@ -1,3 +1,5 @@
+from abc import abstractmethod
+
 import EmployeeType
 
 class Employee(object):
@@ -16,6 +18,9 @@ class Employee(object):
 
     factory = staticmethod(factory)
 
+    @abstractmethod
+    def calculate_salary(self):
+        pass
     def print_employee(self):
         vacation = self.calculate_vacation()
         if (vacation != None):
