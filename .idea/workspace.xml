@@ -14,14 +14,14 @@
       <file leaf-file-name="Employee.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../test_employee/Employee.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="43" lean-forward="false" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
+            <state relative-caret-position="459">
+              <caret line="27" column="33" lean-forward="true" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="test.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../test_employee/test.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
@@ -33,7 +33,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EmployeeType.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="EmployeeType.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../test_employee/EmployeeType.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
@@ -316,9 +316,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_test_TestEmployee - 2017.10.18 at 14h 32m 00s.xml">
-      <configuration name="Unittests for test.TestEmployee" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_for_test_TestEmployee - 2017.10.18 at 14h 36m 39s.xml">
       <configuration name="Unittests for test.TestEmployee" configurationId="tests" />
     </history-entry>
@@ -338,6 +335,9 @@
       <configuration name="Unittests for test.TestEmployee" configurationId="tests" />
     </history-entry>
     <history-entry file="Unittests_for_test_TestEmployee - 2017.10.18 at 14h 44m 39s.xml">
+      <configuration name="Unittests for test.TestEmployee" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_TestEmployee - 2017.10.18 at 14h 47m 43s.xml">
       <configuration name="Unittests for test.TestEmployee" configurationId="tests" />
     </history-entry>
     <history-entry file="Unittests_for_test_TestEmployee_test_fulltime_positive - 2017.10.18 at 14h 42m 38s.xml">
@@ -436,18 +436,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../test_employee/EmployeeType.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="21" lean-forward="true" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../test_employee/Employee.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="43" lean-forward="false" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
+        <state relative-caret-position="459">
+          <caret line="27" column="33" lean-forward="true" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
           <folding />
         </state>
       </provider>
@@ -459,6 +451,14 @@
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../test_employee/EmployeeType.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="21" lean-forward="true" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+          <folding />
         </state>
       </provider>
     </entry>

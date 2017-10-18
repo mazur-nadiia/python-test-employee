@@ -7,11 +7,11 @@ class Employee(object):
         self.type = type
 
         if type == EmployeeType.EmployeeType.FULLTIME:
-            return Fulltime()
+            return FulltimeEmployee()
         if type == EmployeeType.EmployeeType.CONTRACTOR:
-            return Contractor()
+            return ContractorEmployee()
         if type == EmployeeType.EmployeeType.TEMPORARY:
-            return Tempopary()
+            return TemporaryEmployee()
         assert 0, "Creation failed for : " + type
 
     factory = staticmethod(factory)
@@ -22,18 +22,22 @@ class Employee(object):
             print("Name: %s %s, Duration: %s years, Vacation Accrued: %s days" % (self.name, self.type._value_, self.longevity, vacation) )
         else:
             print("Name: %s %s, Duration: %s years, Vacation Accrued: None" % (self.name, self.type._value_, self.longevity))
-class Fulltime(Employee):
+
+
+class FulltimeEmployee(Employee):
     def calculate_vacation(self):
         if (self.longevity >=0):
             return int(self.longevity) * 5
         else:
             return None
 
-class Tempopary(Employee):
+
+class TemporaryEmployee(Employee):
     def calculate_vacation(self):
         return None
 
-class Contractor(Employee):
+
+class ContractorEmployee(Employee):
     def calculate_vacation(self):
         return None
 
